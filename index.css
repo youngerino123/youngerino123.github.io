@@ -1,0 +1,196 @@
+body {
+    background-image: url("30947.jpg");
+    width:auto;
+    margin:auto;
+    height:auto;
+}
+.header {
+    position: relative;
+    animation: Animaatio 10s infinite;
+}
+#headertext {
+    text-align:center;
+    font-size:100px;
+    font-family:"Oldlondon";
+    color:black;
+    
+
+}
+
+#tights {
+    position: relative;
+    width:150px;
+    margin-left:0px;
+}
+
+.jumbotron {
+    margin:0px;
+    width:100%;
+}
+
+
+.navbar {
+   background-color: rgb(24, 24, 24); 
+   color:white;
+   font-size:2em;
+   border-radius:40px 0px 0px 40px;
+   text-decoration: none;
+   width:100%;
+   margin:0px;
+   border: 3px solid black;
+   animation: AnimaatioBox 10s infinite;
+   font-style: oblique;
+   font-family:"Opensans";
+
+}
+
+#navbarNav {
+    position: relative;
+    margin-right:35px;
+}
+
+.fa {
+    padding: 15px;
+    font-size: 40px;
+    width: 80px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 40%;
+    margin-right:10px;
+  }
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.nav-link {
+    margin-right:20px;
+}
+
+a {
+    color:white;
+}
+
+a:hover{
+    text-decoration: none;
+    color:rgb(83, 5, 5);
+    font-weight: bold;
+    font-style: oblique; 
+}
+.navbar-default .navbar-nav > .active > a {
+   color:rgb(167, 137, 137);
+}
+
+.content {
+    border-top:3px solid black;
+    position: relative;
+    padding:20px;
+    margin:0px;
+    width:100%;
+    margin-top:20px;
+    min-height:550px;
+    float:left;
+    font-size:20px;
+    background-color:  rgb(24, 24, 24);
+    font-family:"Opensans";
+    animation: AnimaatioBox 10s infinite;
+}
+
+#esittely {
+    margin-left:20px;
+    color:white;
+    font-size:1em;
+    text-align: left;
+    font-style: oblique;
+}
+
+hr {
+
+}
+#esittelykuvaSisalto {
+    float:left;
+}
+
+#esittelykuvaPNG {
+    transform: rotate(2deg);
+    width: 300px;
+    border:2px groove black;
+    background-color: black;
+    border-radius:20px;
+}
+
+#esittelykuvaPNG2 {
+    transform: rotate(-2deg);
+    width: 300px;
+    border:2px groove black;
+    background-color: black;
+    border-radius:20px;
+}
+
+
+#pikkuotsikko {
+    color:rgb(6, 6, 39);
+    font-weight: bold;
+    font-size:25px;
+    font-style: oblique;
+}
+
+#not {
+    color:rgb(83, 5, 5);
+}
+
+
+.footer {
+    border-top:1px solid black;
+    border-bottom:3px solid black;
+    position: relative;
+    float:left;
+    padding-top:10px;
+    margin:0px;
+    width:100%;
+    font-size:20px;
+    color:white;
+    background-color:  rgb(24, 24, 24);
+    font-family:"Opensans";
+    border-radius:0px 0px 40px 40px;
+}
+
+
+@font-face {
+    font-family: Oldlondon;
+    src: url("OldLondon.ttf");
+  }
+
+@font-face {
+    font-family: Opensans;
+    src: url("Open_sans/OpenSans-Light.ttf");
+  }
+
+  @keyframes Animaatio {
+    1% { text-shadow: 0px 0px 0px  rgb(14, 29, 41); }
+    50% { text-shadow: 1px 1px 150px rgb(14, 29, 41); }
+    100% { text-shadow: 0px 0px 0px  rgb(14, 29, 41); }
+    
+ }
+
+ @keyframes AnimaatioBox {
+    1% { box-shadow: 500px 0px 0px 0px rgb(109, 184, 245); }
+    50% { box-shadow:0px 0px 2px 1px rgb(109, 184, 245); }
+    100% { box-shadow: 500px 0px 0px 0px  rgb(109, 184, 245); }
+ }
+
+ @keyframes AnimaatioBox2 {
+    1% { box-shadow:0px 0px 5px 1px rgb(109, 184, 245); }
+    50% { box-shadow:0px 0px 1px 1px rgb(14, 0, 1); }
+    100% { box-shadow:0px 0px 5px 1px rgb(109, 184, 245); }
+ }
