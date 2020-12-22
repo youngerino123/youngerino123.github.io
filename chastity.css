@@ -4,6 +4,7 @@
 
 #esittely {
     margin:auto;
+    margin-bottom:20px;
     padding:0px;
 }
 
@@ -21,8 +22,16 @@
 .carousel {
     margin-left:0px;
 }
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    display: none;
+}
+
 
 #esittelyContent {
     margin:20px;
     padding-bottom:20px;
+}
+
+#RulesTerms {
+    line-height: 2;
 }

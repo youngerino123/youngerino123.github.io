@@ -7,6 +7,10 @@ th {
     color:rgb(83, 5, 5);
 }
 
-tr:nth-child(even) {
-    background-color: rgb(39, 38, 38);
+th:nth-child(even), td:nth-child(even) {
+    
 }
+
+#notBorder{
+     border-style:none;
+ }
