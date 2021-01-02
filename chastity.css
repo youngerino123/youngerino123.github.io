@@ -19,6 +19,11 @@
 
 }
 
+#socialMediaPictures {
+    border-radius:20px;
+}
+
+
 .carousel {
     margin-left:0px;
 }
@@ -34,4 +39,8 @@
 
 #RulesTerms {
     line-height: 2;
+}
+
+.footer {
+text-align:center;
 }
